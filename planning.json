@@ -7,24 +7,25 @@
     { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
   ],
   "postData" : {
-  "from": {
-      "name": "Accra, Ghana",
-    "coordinates": {
-      "lng": 4.8663115,
-      "lat": 52.342116,
-      "alt": 0
+    "text": {
+      "from": {
+          "name": "Accra, Ghana",
+        "coordinates": {
+          "lng": 4.8663115,
+          "lat": 52.342116,
+          "alt": 0
+        }
+      },
+      "to": {
+        "name": "Lagos, Nigeria",
+        "coordinates": {
+          "lng": 5.08562,
+          "lat":52.11509,
+          "alt": 0
+        }
+      },
+      "departureTime": "2022-12-14T16:48:00.189Z",
+      "nrOfTravelers": 1
     }
-  },
-  "to": {
-    "name": "Lagos, Nigeria",
-    "coordinates": {
-      "lng": 5.08562,
-      "lat":52.11509,
-      "alt": 0
-    }
-  },
-  "departureTime": "2022-12-14T16:48:00.189Z",
-  "nrOfTravelers": 1
-}
-  
+  }
 }
