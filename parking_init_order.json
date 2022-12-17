@@ -1,6 +1,6 @@
 {
   "method": "POST",
-  "url": "https://api.dev.automicle.com/v1/parking/search",
+  "url": "https://api.dev.automicle.com/v1/parking/order/init",
   "headers": [
     { "name": "Accept", "value": "application/json" },
     { "name": "Content-Type", "value": "application/json" },
@@ -8,6 +8,6 @@
   ],
   "postData" : {
     "mimeType": "application/json",
-    "text": "{\"location\": {\"lat\": 52.978627,\"lng\" : 2.869238}}"
+    "text": "{\"itemId\": \"2c888d46-f164-4d2e-b0cf-081126f1bad5\",\"vehicleId\": \"TP299B\",\"bookingStartDateTime\": \"2022-12-10T13:00:00.00+01:00\",\"bookingEndDateTime\": \"2022-12-10T15:00:00.00+01:00\"}"
   }
 }
