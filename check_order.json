@@ -1,0 +1,9 @@
+{
+  "method": "GET",
+  "url": "https://api.dev.automicle.com/v1/parking/order/status/$ORDER_ID",
+  "headers": [
+    { "name": "Accept", "value": "application/json" },
+    { "name": "Content-Type", "value": "application/json" },
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ]
+}
