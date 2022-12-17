@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "url": "https://api.dev.automicle.com/v1/mobility/bookings",
+  "headers": [
+    { "name": "Accept", "value": "application/json" },
+    { "name": "Content-Type", "value": "application/json" },
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+  "postData" : {
+    "mimeType": "application/json",
+    
+    "text": "{\"id\": \"74736bf2-7a86-4e74-8f62-efa152c44647\",\"customer\": {\"firstName\": \"John\",\"lastName\": \"Doe\",\"middleName\": \"von\",\"email\": \"johndoe@johndoe.com\",\"birthDate\": \"2000-10-07\"}}"
+  }
+}

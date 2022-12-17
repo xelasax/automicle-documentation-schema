@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "url": "https://api.dev.automicle.com/v1/mobility/bookings/$BOOKING_ID/events",
+  "headers": [
+    { "name": "Accept", "value": "application/json" },
+    { "name": "Content-Type", "value": "application/json" },
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+  "postData" : {
+    "mimeType": "application/json",
+    
+    "text": "{\"operation\": \"COMMIT\",\"origin\": \"TO\" }"
+  }
+}
