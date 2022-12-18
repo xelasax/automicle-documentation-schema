@@ -1,6 +1,6 @@
 {
   "method": "POST",
-  "url": "https://api.dev.automicle.com/v1/parking/payment/$ORDER_ID",
+  "url": "https://api.dev.automicle.com/v1/parking/order/confirm/$ORDER_ID",
   "headers": [
     { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
   ],
