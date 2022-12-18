@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "url": "https://api.dev.automicle.com/v1/parking/payment/$ORDERID",
+  "headers": [
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+  "postData" : {
+    "mimeType": "application/json",
+    "text": "{\"transactionId\" : \"TX_PdkjwnajkLLLLGjgPP\",\"payableAmount\" : 4.0,\"time\": \"2022-12-06T09:00:00.00+01:00\"}"
+  }
+}
+
+
+
+
