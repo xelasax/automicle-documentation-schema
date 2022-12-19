@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "url": "https://api.dev.automicle.com/v1/parking/order/confirm/$ORDER_ID",
+  "headers": [
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+  "postData" : {
+    "mimeType": "application/json",
+    "text": "{\"proposedEndTime\": \"2022-12-09T10:30:00.000+00:00\",\"parkingModifyType\": \"UPDATE\",\"paymentTransactionId\": \"TX_Pdkjwnajkhdjgg\"}"
+  }
+}
+
+
+
+
+
